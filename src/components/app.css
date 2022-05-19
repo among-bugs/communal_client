@@ -1,0 +1,223 @@
+.my-form {
+    margin: 20px;
+
+    border-radius: 20px;
+    border-color: #66A6CA;
+    border-width: 1px;
+}
+
+.form-column {
+    border-radius: 20px;
+}
+
+.girl {
+    display: flex;
+    align-items: center;
+}
+
+.image-to-center {
+    justify-content: center !important;
+    display: flex !important;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-form {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.login-form-button {
+    background-color: #003258;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    color: #011727;
+    font-size: medium;
+    border-color: transparent;
+    border-width: 2px;
+    border-radius: 8px;
+
+}
+
+.table-row {
+    margin: 20px;
+    padding: 20px;
+}
+
+.table-bordered {
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+    padding: 0px;
+}
+
+h5 {
+    text-align: right;
+}
+
+.react-bootstrap-table {
+    margin: 0px;
+    padding: 0px;
+}
+
+.reg-input,
+.reg-input-phone {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    color: black;
+    font-size: '18px';
+    border-color: transparent;
+    border-width: 2px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.req-input-profile {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 2px;
+    color: black;
+    font-size: '18px';
+    border-color: black;
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.reg-input-pupop {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    color: black;
+    font-size: '18px';
+    border-color: #000044;
+    border-width: 2px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.reg-input:hover {
+    border-color: #64B5F6;
+    border-style: solid;
+}
+
+
+
+/* input:focus {
+    border-color: #42A5F5;
+    border-style: solid;
+    border-width: 2px;
+} */
+
+.flag-img {
+    width: 52px;
+    height: 28px;
+    border: 1px solid #BBDEFB
+}
+
+.brand-img {
+    width: 100px;
+    height: 100px;
+}
+
+.main-page {
+    min-height: 270px;
+    background-color: #000044;
+    color: white;
+    background: #0D47A1;
+    background: linear-gradient(90deg, #1565C0 0%, #1976D2 50%, #1E88E5 100%);
+}
+
+
+.main-page-footer {
+    margin-top: 32px;
+    min-height: 180px;
+    background-color: #000044;
+    color: white;
+    background: #0D47A1;
+    background: linear-gradient(90deg, #1565C0 0%, #1976D2 50%, #1E88E5 100%);
+}
+
+
+@media screen and (min-width: 768px) {
+    .main-page h1 {
+        font-size: 100px;
+    }
+}
+
+.main-page h1 {
+    font-size: 55px;
+    line-height: 1;
+
+}
+
+
+.navbar {
+    background: #0D47A1;
+    background: linear-gradient(90deg, #1E88E5 0%, #2196F3 50%, #42A5F5 100%);
+}
+
+.profile {
+    padding: 0px;
+    background: transparent;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-right-width: 1px;
+    border-left: 4px solid var(--bs-blue);
+}
+
+.data {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.top-card-row {
+    margin: 0px;
+    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: #BBDEFB;
+    box-shadow: 2px 2px 20px 2px #90CAF9;
+}
+
+.top-card-profile {
+    padding: 0px;
+    background: transparent;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-right-width: 1px;
+    border-left: 4px solid var(--bs-blue);
+}
+
+.news-card {
+    padding: 8px;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: #1565C0;
+}
+
+.drive-create-folder-btn:hover {
+        background: #42A5F5;;
+        border-color: #42A5F5;
+        color: transparent
+}
+
+.file {
+    background-color: transparent;
+}
+
+.file:hover {
+    background-color: #BBDEFB;
+}
